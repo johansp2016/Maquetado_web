@@ -1,20 +1,91 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
-    background: gray;
+body {
+    background: rgb(20, 127, 165);
     color: white;
 }
-#contenedor1{
+
+#contenedor1 {
     width: 960px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    
 }
-#contenido2{
+
+header {
+    height: 150px;
+    background: rgb(38, 147, 187);
+    border-style: double;
+    border-color: bisque;
+    border-radius: 20px;
+}
+
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+}
+
+nav {
+    background: rgb(243, 211, 5);
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 10px;
     
 }
 
+
+nav h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+}
+
+#contenido {
+    width: 700px;
+    height: 500px;
+    float: left;
+    background: rgb(168, 186, 30);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+}
+
+#contenido h3 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+}
+aside{
+    width: 250px;
+    height: 500px;
+    background: rgb(41, 211, 154);
+    margin-top: 10px;
+    float: right;
+    border-radius: 20px;
+}
+
+aside h3{
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+}
+
+footer{
+    background: rgb(43, 215, 215);
+    clear: both;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+footer h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    font-style: oblique;
+}
